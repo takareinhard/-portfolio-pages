@@ -79,8 +79,12 @@ header .container {
 main .container {
     padding: 0;
 }
-.key {
-    width: 100%;
+.trunk {
+    margin: 0 auto;
+    height: 15%;
+    width: 15%;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 .content {
     padding: 0 30px;
