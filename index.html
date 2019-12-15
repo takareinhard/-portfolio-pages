@@ -1,1 +1,92 @@
-Hello world GitHub Pages
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>6-02_drawer</title>
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/special.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper">
+    <header>
+    <div class="container">
+        <div class="title-block">
+            <h1>タカラインハルトのポートフォリオ</h1>
+            <h2>実績たち</h2>            
+        </div>
+        <div class="hamburger" id="open_nav">
+            <img src="hamburger.png" alt="">
+        </div>
+    </div><!-- /.container -->
+    </header>
+    <main>
+    <div class="container">
+    <section>
+        <div class="key">
+            <img src="key.jpg" alt="">
+        </div>
+        <div class="content">
+            <h1>ポートフォリオ一覧</h1>
+            <p>私のポートフォリオの数々です<br>
+            主にスクールで作った物を載せます</p>
+        </div>
+        <div class="archive">
+            <h3>ポートフォリオ</h3>
+            <div class="archive-box">
+                <figure>
+                    <img src="thumb1.jpg" alt="">
+                    <figcaption>MAHALO BLOG</figcaption>
+                </figure>
+                <figure>
+                    <img src="thumb2.jpg" alt="">
+                    <figcaption>チャットスペース</figcaption>
+                </figure>
+            </div>
+            <div class="archive-box">
+                <figure>
+                    <img src="hawaiian.jpg" alt="" width="120" height="260">
+                    <figcaption>ハワイアン パンケーキ メーカー</figcaption>
+                </figure>
+                <figure>
+                    <img src="thumb3.jpg" alt="">
+                    <figcaption>メルカリのコピーサイト</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    </div><!-- /.container -->
+    </main>
+
+    <footer>
+    <div class="container">
+    <p>タカラインハルトのポートフォリオ</p>
+    </div><!-- /.container -->
+    </footer>
+</div>
+
+<nav id="nav">
+    <!-- <div class="logo"><img src="logo.svg" alt=""></div> -->
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">テスト</a></li>
+        <li><a href="#">テスト</a></li>
+        <li><a href="#">テスト</a></li>
+        <li><a href="#">テスト</a></li>
+    </ul>
+</nav>
+
+<script src="jquery-3.4.1.min.js"></script>
+<script>
+'use strict';
+
+$(document).ready(function() {
+    $('#open_nav').on('click', function() {
+        $('#wrapper, #nav').toggleClass('show');
+    });
+});
+</script>
+</body>
+</html>
