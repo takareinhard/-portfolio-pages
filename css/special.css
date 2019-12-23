@@ -130,4 +130,6 @@ figure {
 .facebook {
     color: #4267B2;
     fill: currentColor;
+    width: 120px;
+    height: 120px;
 }
