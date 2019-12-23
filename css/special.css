@@ -150,6 +150,7 @@ figure {
     background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
     overflow: hidden;/*はみ出た部分を隠す*/
     border-radius: 13px;/*角丸に*/
+    stroke: white;
 }
 
 .instagram:before {/*グラデーションを重ねるため*/
