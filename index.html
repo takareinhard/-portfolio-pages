@@ -52,7 +52,7 @@
                     <figcaption>ハワイアン パンケーキ メーカー</figcaption>
                 </figure>
                 <figure>
-                    <a href="https://github.com/takareinhard/freemarket_sample_55"><img src="thumb3.jpg" alt=""></a>
+                    <a href="https://github.com/takareinhard/freemarket_sample_55"><img src="thumb3.jpg" alt="" ></a>
                     <figcaption>メルカリのコピーサイト</figcaption>
                 </figure>
             </div>
@@ -60,9 +60,8 @@
         <div class="archive">
             <h3>SNS</h3>
             <div class="archive-box">
-                <div class="archive-box">
                 <figure>
-                    <a href="https://www.facebook.com/hokke.pearlrice"><img src="image/facebook-square-brands.svg" alt="" width="120" height="120"></a>
+                    <a href="https://www.facebook.com/hokke.pearlrice"><img src="image/facebook-square-brands.svg" alt="" width="120" height="120" class=facebook></a>
                     <figcaption>FACEBOOK</figcaption>
                 </figure>
                 <figure>
@@ -101,6 +100,8 @@
     </ul>
 </nav>
 
+
+
 <script src="jquery-3.4.1.min.js"></script>
 <script>
 'use strict';
@@ -110,6 +111,15 @@ $(document).ready(function() {
         $('#wrapper, #nav').toggleClass('show');
     });
 });
+
+</script>
+
+<script src="deSVG-gh-pages/desvg.js"></script>
+<script>
+$(function(){
+  deSVG('.facebook', true);
+});
+
 </script>
 </body>
 </html>

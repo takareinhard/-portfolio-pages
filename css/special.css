@@ -127,6 +127,11 @@ figure {
     text-align: center;
 }
 
-.sns {
-    padding: 10px;
+.facebook {
+    color: #fff;
+    fill: currentColor;
 }
+
+svg {
+    fill: #0e3e4d;
+  }
