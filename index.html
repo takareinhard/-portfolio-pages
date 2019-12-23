@@ -77,7 +77,7 @@
                     <figcaption>INSTAGRAM</figcaption>
                 </figure>
                 <figure>
-                    <a href="https://github.com/takareinhard/"><img src="image/github-brands.svg" alt="" width="120" height="120"></a>
+                    <a href="https://github.com/takareinhard/"><img class="github" src="image/github-brands.svg" alt="" width="120" height="120"></a>
                     <figcaption>GITHUB</figcaption>
                 </figure>
             </div>
@@ -121,7 +121,9 @@ $(document).ready(function() {
 <script src="deSVG-gh-pages/desvg.js"></script>
 <script>
 $(function(){
-  deSVG('.facebook','.twitter','.instagram', true);
+  deSVG('.twitter', true);
+  deSVG('.facebook', true);
+  deSVG('.github', true);
 });
 
 </script>
