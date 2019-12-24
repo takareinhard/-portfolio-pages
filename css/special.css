@@ -6,6 +6,8 @@
 }
 img {
     max-width: 100%;
+    border-radius: 20px;/*角丸に*/
+
 }
 
 /* ===== 機能の実装に必要なCSS ===== */
