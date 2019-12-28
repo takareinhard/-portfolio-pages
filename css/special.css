@@ -128,12 +128,75 @@ main .container {
     }
 }
 
+/* タイトルのボーダー */
+
+.title-border {
+    display: flex;
+    align-items: center;
+    }
+    .title-border:before,
+    .title-border:after {
+    margin:auto 0;
+    border-top: 1px solid;
+    content: "";
+    flex-grow: 1;
+    }
+    .title-border:before {
+    margin-left: 20%;
+    border-color: rgb(232, 162, 83);
+    }
+    .title-border:after {
+    margin-right: 20%;
+    border-color: rgb(232, 162, 83);
+    }
+
+@media(min-width: 768px) {
+    .title-border {
+        display: flex;
+        align-items: center;
+        }
+        .title-border:before,
+        .title-border:after {
+        margin:auto 0;
+        border-top: 1px solid;
+        content: "";
+        flex-grow: 1;
+        }
+        .title-border:before {
+        margin-left: 40%;
+        border-color: rgb(232, 162, 83);
+        }
+        .title-border:after {
+        margin-right: 40%;
+        border-color: rgb(232, 162, 83);
+        }
+    }
+
+
+
 .archive h3 {
-    border-top: 1px dashed #809BA6;
-    border-bottom: 1px dashed #809BA6;
-    padding: 0.5rem 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    padding: 0 20px;
+    font-family: Marck Script,sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    color: #e8a253;
+    font-weight: 400;
+    letter-spacing: -1px;
     text-align: center;
+    background-color: transparent;
 }
+
+.line_before {
+    width: 100px;
+    border-bottom-width: 1px;
+    margin-bottom: -1px;
+    opacity: 1;
+}
+
 .archive figure {
     margin: 0 0 2em 0;
     padding: 0;
