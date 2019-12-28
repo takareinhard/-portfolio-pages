@@ -21,6 +21,7 @@ body {
     margin: 0 auto;
     padding: 16px;
 }
+
 @media (min-width: 768px) {
     .container {
         max-width: 1000px;
@@ -28,10 +29,24 @@ body {
         padding: 30px;
     }
 }
-header {
-    background-color: #e917b5;
-    border-bottom: #ea6363 6px solid;
+
+@media (min-width: 768px) {
+    .l-header {
+        padding: 30px 0;
+        border-top:     1px solid #ddd;
+        border-bottom:     1px solid #ddd;
+    }
 }
+
+
+header {
+    padding: 10px 0;
+    border-top:     1px solid #ddd;
+    border-bottom:     1px solid #ddd;
+}
+
+
+
 header .container {
     min-height: 60px;
     padding-top: 0;
@@ -42,14 +57,46 @@ header .container {
     background-size: 53px;
     background-position: 16px 10px;
 }
+
 @media (min-width: 768px) {
     header .container {
         min-height: 100px;
         padding-left: 120px;
         background-size: 80px;
         background-position: 30px 20px;
+        margin: 0 auto;
     }
 }
+
+.l-inner {
+    text-align:center;
+}
+
+@media (min-width: 768px) {
+    .l-inner {
+        text-align:left;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 88.8888%;
+        max-width: 1200px;
+    }
+}
+
+.l-header {
+    margin-top:30px;
+}
+
+@media (min-width: 768px) {
+    .l-inner {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 88.8888%;
+        max-width: 1200px;
+    }
+}
+
 header .container h1,
 header .container h2 {
     margin: 0;

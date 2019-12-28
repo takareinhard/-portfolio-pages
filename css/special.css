@@ -39,6 +39,25 @@ header .container {
     display: flex;
     justify-content: space-between;
 }
+
+.title {
+    border-radius: 0px;
+    width:70%;
+}
+
+@media(min-width: 768px) {
+    .title {
+        width:50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        border-radius: 0px;
+        width:50%;
+    }
+}
+
 .title-block {
     flex: 1 1 auto;
 }
@@ -100,6 +119,7 @@ main .container {
     margin: 0 auto;
     width: 320px;
 }
+
 @media(min-width: 768px) {
     .archive-box {
         display: flex;
@@ -107,6 +127,7 @@ main .container {
         width: 100%;
     }
 }
+
 .archive h3 {
     border-top: 1px dashed #809BA6;
     border-bottom: 1px dashed #809BA6;
