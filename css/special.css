@@ -232,6 +232,12 @@ figure {
     height: 120px;
 }
 
+.insta {
+    height:120px;
+    width:120px;
+    max-width: 100%;
+  }
+
 
 .insta_btn {
     height:120px;
@@ -291,19 +297,29 @@ figure {
         height: 30%;
     }
 }
-#wrapper_rainbow {
-    text-align:center;
+
+@media(max-width: 768px) {
+    #wrapper_rainbow {
+        margin-top:30px;
+        display: flex;
+        text-align:center;
+    }
 }
 
 @media(min-width: 768px) {
     #wrapper_rainbow {
+        margin-top:30px;
         text-align:right;
-        margin-right:20px;
+        margin-right:30px;
     }
 }
 
 .plumeria {
-    width:10%;
-    text-align:right;
+    width:70%;
+}
 
+@media(min-width: 768px) {
+    .plumeria {
+        width:10%;
+    }
 }
