@@ -291,3 +291,19 @@ figure {
         height: 30%;
     }
 }
+#wrapper_rainbow {
+    text-align:center;
+}
+
+@media(min-width: 768px) {
+    #wrapper_rainbow {
+        text-align:right;
+        margin-right:20px;
+    }
+}
+
+.plumeria {
+    width:10%;
+    text-align:right;
+
+}
