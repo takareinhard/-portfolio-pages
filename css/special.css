@@ -112,7 +112,6 @@ main .container {
     text-align: center;
 }
 .archive {
-    margin: 40px 0 0;
     padding: 0 30px;
 }
 .archive-box {
@@ -288,7 +287,7 @@ figure {
 
   @media(min-width: 768px) {
     .begin {
-        width: 60%;
-        height: 60%;
+        width: 30%;
+        height: 30%;
     }
 }
