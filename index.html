@@ -19,7 +19,10 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-  </head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
+
+</head>
   <body>
     <div id="wrapper_rainbow">
         <a href="https://takareinhard.github.io/portfolio-pages/"
@@ -47,7 +50,7 @@
           <section>
         <div class="container">
             <div class="begin">
-                <div class="center">
+                <!-- <div class="center">
                     <div><img src="image/slick/hawaii.jpeg" alt=""></div>
                     <div><img src="image/slick/hawaii.jpeg" alt=""></div>
                     <div><img src="image/slick/hawaii.jpeg" alt=""></div>
@@ -56,6 +59,26 @@
                     <div><img src="image/slick/hawaii.jpeg" alt=""></div>
                     <div><img src="image/slick/hawaii.jpeg" alt=""></div>
                     <div><img src="image/slick/hawaii.jpeg" alt=""></div>
+                </div> -->
+                <div class="swiper-container">
+                    <!-- 全スライドをまとめるラッパー -->
+                    <div class="swiper-wrapper">
+                        <!-- 各スライド -->
+                        <div class="swiper-slide"><img src="image/slick/hawaii.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="image/slick/hawaii.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="image/slick/hawaii.jpeg" alt=""></div>
+                        ...
+                    </div>
+                 
+                    <!-- ページネーションを表示する場合 -->
+                    <div class="swiper-pagination"></div>
+                 
+                    <!-- 前後スライドへのナビゲーションボタン(矢印)を表示する場合 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                 
+                    <!-- スクロールバーを表示する場合 -->
+                    <div class="swiper-scrollbar"></div>
                 </div>
             </div>
         </div>
@@ -73,7 +96,7 @@
                         src="image/make.jpeg"
                         alt=""
                     /></a>
-                    <figcaption>🌈 Web制作承ります 🌺 </figcaption>
+                    <figcaption>⭐️Web制作承ります⭐️ </figcaption>
                   </figure>
               </div>
             </div>
@@ -122,9 +145,6 @@
               </div>
             </div>
 
-            <div class="trunk">
-              <img src="trunk.png" alt="" />
-            </div>
             <div class="content">
               <h1>ポートフォリオ一覧</h1>
               <p>私のポートフォリオの数々です。<br /></p>
@@ -192,12 +212,15 @@
       </ul>
     </nav>
 
+
     <script src="jquery-3.4.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script src="swiper.js"></script>
     <script>
+
       "use strict";
 
       $(document).ready(function() {
@@ -212,7 +235,7 @@
         infinite: true, //スライドのループ有効化
         dots:true, //ドットのナビゲーションを表示
         centerMode: true, //要素を中央寄せ
-        centerPadding:'10%', //両サイドの見えている部分のサイズ
+        centerPadding:'33.3%', //両サイドの見えている部分のサイズ
         autoplay:true, //自動再生
         });
     });
@@ -227,7 +250,5 @@
       });
     </script>
 
-
-</script>
   </body>
 </html>
