@@ -349,3 +349,26 @@ figure {
     height: 100%;
 }
 
+.profile_image {
+    width:50%;
+}
+
+.profile {
+    text-align:center;
+}
+
+@media(min-width: 768px) {
+    .profile {
+        text-align:left;
+    }
+}
+
+.aboutme {
+    text-align:center;
+}
+
+@media(min-width: 768px) {
+    .aboutme {
+        text-align:right;
+    }
+}
