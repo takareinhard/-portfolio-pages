@@ -411,7 +411,7 @@ figure {
 }
 
 .make_sentence {
-
+        position: relative;
         padding-top:50%;
         text-align:center;
         width: 100%;
@@ -427,7 +427,16 @@ figure {
 }
 
 #make_sentence {
-    height:467.17px;
+    height:513.95px;
+}
+
+.make_sentence_sentence{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    text-align: center;/*一応BOX内の文字も中央寄せ*/
 }
 
     
