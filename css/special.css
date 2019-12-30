@@ -359,30 +359,6 @@ figure {
     height: 100%;
 }
 
-.profile_image {
-    width:50%;
-}
-
-.profile {
-    text-align:center;
-}
-
-@media(min-width: 768px) {
-    .profile {
-        text-align:left;
-    }
-}
-
-.aboutme {
-    text-align:center;
-}
-
-@media(min-width: 768px) {
-    .aboutme {
-        text-align:right;
-    }
-}
-
 /* 真ん中バナー */
 
 .box3 {
@@ -426,17 +402,31 @@ figure {
     padding: 0;
 }
 
+
 #make_sentence {
-    height:513.95px;
+    height:100%;
 }
 
-.make_sentence_sentence{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform : translate(-50%,-50%);
-    transform : translate(-50%,-50%);
-    text-align: center;/*一応BOX内の文字も中央寄せ*/
-}
 
+@media(min-width: 768px) {
+    .make_sentence_sentence{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform : translate(-50%,-50%);
+        transform : translate(-50%,-50%);
+        text-align: center;/*一応BOX内の文字も中央寄せ*/
+        }
+    }
     
+        
+
+@media(min-width: 768px) {
+    #typewriter {
+        height:100%;
+    }
+}
+
+#contact {
+    margin:20px;
+}
