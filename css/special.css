@@ -428,5 +428,11 @@ figure {
 }
 
 #contact {
-    margin:20px;
+    margin: 0 10px;
+    margin-top:20px;
+}
+
+#profile {
+    margin: 0 10px;
+    margin-top:40px;
 }
