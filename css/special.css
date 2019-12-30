@@ -10,6 +10,10 @@ img {
 
 }
 
+#bold {
+    font-weight:bold;
+}
+
 /* ===== 機能の実装に必要なCSS ===== */
 
 /* ドロワーナビゲーションの必須スタイル */
@@ -200,6 +204,13 @@ main .container {
     margin: 0 0 2em 0;
     padding: 0;
 }
+
+@media(min-width: 768px) {
+    .archive figure { 
+        width:50%;
+    }
+}
+
 .archive figcaption {
     text-align: center;
 }
@@ -340,7 +351,7 @@ figure {
 
 
 .make {
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -372,3 +383,41 @@ figure {
         text-align:right;
     }
 }
+
+/* 真ん中バナー */
+
+.box3 {
+    padding: 2.5em 1em;
+    margin: 3em 0;
+    color: #2c2c2f;
+    background: #db2d8d;/*背景色*/
+}
+.box3 p {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-family: "Futura", Futura, sans-serif;
+    font-size:40px;
+    color:white;
+    text-align:center;
+    margin: 10px; 
+    padding: 0;
+}
+
+@media(min-width: 768px) {
+    .make_sentence {
+        margin: 0 10px;
+    }
+}
+
+.make_sentence {
+        text-align:center;
+        width: 100%;
+        border-radius: 20px;/*角丸に*/
+        padding: 0.5em 1em;
+        color: #2c2c2f;
+        background: #cde4ff;/*背景色*/
+    }
+    .make_sentence p {
+        margin: 0; 
+        padding: 0;
+    }
