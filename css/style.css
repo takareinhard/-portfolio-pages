@@ -11,7 +11,7 @@ body *, ::before, ::after {
 }
 body {
     margin: 0;
-    font-family: 'M PLUS 1p', sans-serif;
+    font-family: "Segoe UI", Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     font-weight: 400;
     background-color: #fff;
     color: #000;
