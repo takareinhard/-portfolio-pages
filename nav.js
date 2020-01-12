@@ -3,7 +3,7 @@ $(".menu-trigger").on("click", function(){
   $(".navigation").toggleClass("fix");//追記
 });
 
-// $("list-group-item").on("click", function(){
-//   $(".navigation").style.display ="none";
-//   // $(".navigation").toggleClass("fix");//追記
-// });
+document.getElementById("navs").onclick = function () {
+  const e = document.getElementById("navs");
+  e.style.display = "none";
+};
