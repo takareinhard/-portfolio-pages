@@ -428,19 +428,19 @@ figure {
     }
 }
 
-@media(min-width: 768px) {
+/* @media(min-width: 768px) {
     #contact {
         position: absolute;
         top: 50%;
         -webkit-transform : translateY(-50%);
         transform : translateY(-50%);
     }
-}
+} */
 
 
 @media(min-width: 768px) {
     #profile {
-        position: absolute;
+        /* position: absolute; */
         top: 50%;
         -webkit-transform : translateY(-50%);
         transform : translateY(-50%);
