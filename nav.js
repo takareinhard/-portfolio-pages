@@ -7,3 +7,8 @@ document.getElementById("navs").onclick = function () {
   const e = document.getElementById("navs");
   e.style.display = "none";
 };
+
+// document.getElementById("navs").onclick = function () {
+//   const e = document.getElementById("navs");
+//   e.style.display = "block";
+// }
