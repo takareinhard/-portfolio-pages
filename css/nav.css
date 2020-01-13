@@ -1,6 +1,9 @@
-
+.navigationmenu {
+  float:center;
+}
 
 .navigation {
+  text-align: center;
   position:fixed;
   top: 100%;
   left: 0;
@@ -13,18 +16,21 @@
 }
 
 .navigation.fix {
+  text-align: center;
   width: 100%;
   height: 100%;
   background: white;
   top:0;
 }
 
-.navigation.fix:before {
+.navigation.fix::after {
+  text-align: left;
   content: "";
   width: 100%;
   height: 50%;
   background: #db2d8d;/*背景色*/
   top: -50%;
+  left: 0%;
   position: absolute;
 }
 
