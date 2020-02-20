@@ -190,7 +190,7 @@ main .container {
     display: inline-block;
     vertical-align: middle;
     top: 0;
-    padding: 0 20px;
+    padding: 40px 40px;
     font-family: Marck Script,sans-serif;
     font-size: 30px;
     line-height: 40px;
@@ -466,4 +466,21 @@ figure {
 
 #contact-form {
  align-items: center;
+}
+
+.price-ttl {
+ font-weight: bold;
+ 
+}
+
+.price-yen {
+ font-size: 20px;
+}
+
+#wing {
+    align-items: center;
+}
+
+#prices {
+ padding:20px 0px;
 }
