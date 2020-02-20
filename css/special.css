@@ -327,12 +327,12 @@ figure {
 }
 
 .plumeria {
-    width:70%;
+    width: 80%;
 }
 
 @media(min-width: 768px) {
     .plumeria {
-        width:10%;
+        max-width: 100px;
     }
 }
 
