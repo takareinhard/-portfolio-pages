@@ -10,8 +10,15 @@ img {
 
 }
 
+#header {
+    max-width:2560px;
+}
+
+
+
 #bold {
     font-weight:bold;
+    font-size: 10px;
 }
 
 /* ===== 機能の実装に必要なCSS ===== */
@@ -136,6 +143,7 @@ main .container {
 .title-border {
     display: flex;
     align-items: center;
+    max-width:2560px;
     }
     .title-border:before,
     .title-border:after {
@@ -367,6 +375,7 @@ figure {
     margin: 3em 0;
     color: #2c2c2f;
     background: #db2d8d;/*背景色*/
+    width:100%;
 }
 .box3 p {
     font-family: "Futura", Futura, sans-serif;
