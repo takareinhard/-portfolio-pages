@@ -455,3 +455,7 @@ figure {
         transform : translateY(-50%);
     }
 }
+
+.query {
+ border-bottom:1px solid #007bff;
+}
