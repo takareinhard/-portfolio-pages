@@ -475,6 +475,8 @@ figure {
 
 .price-yen {
  font-size: 20px;
+ margin-right:auto;
+ margin-left:auto;
 }
 
 #wing {
@@ -482,7 +484,7 @@ figure {
 }
 
 #prices {
- padding:20px 0px;
+ padding:40px 0px;
 }
 
 .forus{
