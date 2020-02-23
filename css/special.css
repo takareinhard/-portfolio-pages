@@ -490,3 +490,8 @@ figure {
 .forus{
  font-size: 20px;
 }
+
+.price-sentence{
+ font-weight: bold;
+ text-align: center;
+}
